@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE avengers [
+  <!ELEMENT avengers (avenger)>
+  <!ELEMENT avenger (avenger_name, name, occupation, power, skills, technology_name, patriotism, weakness)>
+  <!ELEMENT avenger_name (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT occupation (#PCDATA)>
+  <!ELEMENT power (#PCDATA)>
+  <!ELEMENT skills (#PCDATA)>
+  <!ELEMENT technology_name (#PCDATA)>
+  <!ELEMENT patriotism (#PCDATA)>
+  <!ELEMENT weakness (#PCDATA)>
+]>
+
+<!--
+    Document   : Endgame.xml
+    Created on : 18 March, 2019, 12:37 AM
+    Author     : PRIYANK DHRUV
+    Description:
+        Purpose of the document follows.
+-->
+
+
+    <avengers>
+        <avenger>
+            <avenger_name>Iron_Man</avenger_name>
+            <name>Tony_Stark</name>
+            <occupation>Enterprenuer</occupation>
+            <power>88%</power>
+            <skills>70%</skills>
+            <technology_name>Nano_Particles</technology_name>
+            <patriotism>80%</patriotism>
+            <weakness>Pepper_Potts</weakness>
+        </avenger>
+        <avenger>
+            <avenger_name>Ant_Man</avenger_name>
+            <name>Scott_Lang</name>
+            <occupation>Thief</occupation>
+            <power>80%</power>
+            <skills>84%</skills>
+            <technology_name>Pim_Particles</technology_name>
+            <patriotism>88%</patriotism>
+            <weakness>Cassie_Lang</weakness>
+        </avenger>
+        <avenger>
+            <avenger_name>Black_Panther</avenger_name>
+            <name>Tichhalla</name>
+            <occupation>King</occupation>
+            <power>84%</power>
+            <skills>90%</skills>
+            <technology_name>Vibranium</technology_name>
+            <patriotism>98%</patriotism>
+            <weakness>Wakanda</weakness>
+        </avenger>
+    </avengers>
+
